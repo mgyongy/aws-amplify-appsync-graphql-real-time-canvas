@@ -122,7 +122,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
-        <button name='clearbutton' onClick={this.clear}>Clear</button>
+        <button name='clearbutton' onClick={this.clear}>ClearOhClear</button>
         <CanvasDraw
           {...this.state}
           ref={canvas => this.canvas = canvas}
